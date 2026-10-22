@@ -1,0 +1,40 @@
+SITE ETECETERA  (passo a passo para iniciantes)
+================================================
+
+COMO VER O SITE NO SEU COMPUTADOR
+1. Baixe o arquivo ETECetera-site.zip e salve na Área de Trabalho.
+2. Clique com o botão direito no arquivo e escolha "Extrair tudo" (Windows) ou dê dois cliques (Mac).
+   Vai aparecer uma pasta chamada "site".
+3. Abra a pasta e dê dois cliques no arquivo  index.html.  Ele abre no navegador. Pronto.
+   IMPORTANTE: não mova o index.html para fora da pasta. Ele precisa ficar junto das pastas css, js e imagens.
+4. Para ver as fontes bonitas das letras recortadas, o computador precisa estar conectado à internet.
+
+COMO COLOCAR AS FOTOS
+- Veja o arquivo  imagens/LEIA-ME.txt  (lista de nomes). Salve cada foto dentro da pasta "imagens", com o nome certo.
+- Depois aperte F5 no navegador para atualizar.
+
+COMO MUDAR TEXTOS E INFORMAÇÕES
+Use um editor de texto simples (o Bloco de Notas serve; o ideal é o "Visual Studio Code", que é gratuito).
+- E-mail de contato, Instagram, nome da edição, manchete e equipe:  js/dados.js
+  (procure por "email", "instagram", "destaque", "equipe" no começo do arquivo)
+- Texto das matérias: também em js/dados.js
+- Página "Sobre nós": abra sobre.html, apague a nota amarela e cole o seu texto dentro de <p>...</p>
+- Cores, tamanhos e visual: css/estilo.css (as cores ficam no começo, em :root)
+
+COMO COLOCAR NO AR (hospedagem)
+Envie a pasta inteira (index.html, materia.html, repositorio.html, sobre.html, creditos.html e as pastas css, js e imagens)
+para o seu serviço de hospedagem. Mantenha as pastas do jeito que estão.
+
+COMO ESTÁ ORGANIZADO
+index.html        página inicial (menu, manchete e as 13 pautas)
+materia.html      página de leitura (serve para todas as matérias)
+repositorio.html  lista das edições
+sobre.html        sobre nós
+creditos.html     créditos e contato
+js/dados.js       todos os textos e dados do jornal (é aqui que o seu banco de dados vai entrar depois)
+js/app.js         menu, busca, filtros e páginas
+css/estilo.css    visual de colagem
+imagens/          fotos e logo
+
+BUSCA (lupa)
+Procura nos títulos, nos nomes dos autores e em todo o texto das pautas. Ignora acentos e maiúsculas.

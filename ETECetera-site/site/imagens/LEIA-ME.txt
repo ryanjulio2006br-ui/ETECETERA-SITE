@@ -1,0 +1,38 @@
+ONDE COLOCAR AS IMAGENS
+=======================
+Coloque os arquivos nesta pasta (imagens), com EXATAMENTE estes nomes.
+Enquanto o arquivo não existir, o site mostra um quadro listrado com o nome do arquivo que falta.
+
+Logo
+  logo.png                      (PNG com fundo transparente, cortado rente à palavra)
+  Já existe um logo.png provisório, feito a partir da imagem que você mandou. Pode substituir.
+
+Foto de cada pauta (aparece no cartão da página inicial e no topo da matéria)
+  femc.png                      (também é a foto da manchete)
+  democracia-em-acao.png
+  jem.png
+  faec.png
+  quimera.png
+  feira-literaria.png
+  dia-a-dia.png
+  empreendedores.png
+  merendeiras.png
+  provao-paulista.png
+  resenha-lisbela.png
+  preludio.png
+  bastidores.png
+
+Fotos extras
+  femc-camilly.png              (dentro da matéria do FEMC, legenda: Camilly Ribeiro)
+  femc-matheus.png              (dentro da matéria do FEMC, legenda: Matheus Gonçalves)
+  empreendedor-ana-carolina.png (cartão "Fale com eles")
+  empreendedor-vitoria.png
+  empreendedor-gilberto.png
+
+DICAS
+- Use PNG com fundo transparente (recorte da pessoa). O site coloca sozinho a borda branca de adesivo e a sombra.
+  Não deixe borda branca nem sombra dentro do arquivo.
+- O site deixa as fotos em preto e branco e devolve a cor ao passar o mouse. Para manter as cores originais, abra
+  qualquer página .html em um editor de texto e troque data-fotos="pb" por data-fotos="cor" (na linha <html ...>).
+- Tamanho ideal: cerca de 1200 pixels no lado maior e menos de 300 KB por arquivo.
+- Para trocar o nome de algum arquivo, edite o campo "imagem" da pauta no arquivo js/dados.js.
